@@ -406,6 +406,26 @@
         }
       });
     </script>
+       <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+          // Use the window load event to keep the page load performant
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+          });
+        }
+        window.addEventListener('beforeinstallprompt', (e) => {
+          // Step 1: Save the event
+            let triggerEvent = e;
+          // Step 2: Trigger the UI for Install prompt
+            let installPrompt = document.getElementById("installPrompt");
+            installPrompt.classList.remove("d-none");
+            installPrompt.addEventListener("click", function () {
+                triggerEvent.prompt();
+                installPrompt.parentElement.removeChild(installPrompt);
+            })
+        });
+    </script>
    <center> <footer>
 Made with ♥ | for students <br>
 BMSIT&M

@@ -1,0 +1,26 @@
+{
+    "short_name": "Text2Call",
+    "url": "https://faiqa-farooq.github.io/bmsit/",
+    "description": "Webiste to convert Text to Calligraphy",
+    "background_color": "#50c878",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/?utm_source=pwa",
+    "theme_color": "#ffffff",
+    "name": "Text to Calligraphy",
+    "icons": [
+      {
+        "src": "/images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/images/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "oritentation":"any",
+    "categories":["utilities"]
+  }

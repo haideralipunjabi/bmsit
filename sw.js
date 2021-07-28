@@ -1,4 +1,4 @@
-importScripts('/js/workbox-sw.js');
+importScripts('./js/workbox-sw.js');
 
 const { registerRoute } = workbox.routing;
 const {

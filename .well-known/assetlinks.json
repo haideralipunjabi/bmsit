@@ -1,10 +1,10 @@
 [{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "io.github.faiqa_farooq.twa",
-      "sha256_cert_fingerprints": [
-        "61:4F:1A:4E:32:F7:CC:92:A2:B1:DE:A1:AB:A9:BF:6F:87:85:C8:13:4A:59:91:C2:B7:B6:A2:7D:1B:0F:3B:41"
-      ]
-    }
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.faiqa_farooq.twa",
+    "sha256_cert_fingerprints": [
+      "32:A8:36:B9:C0:1E:18:03:36:A4:BA:4D:F5:68:C5:95:C3:70:5A:6C:E3:1B:B9:0B:63:7D:AF:04:20:2A:B0:09"
+    ]
+  }
 }]
